@@ -1,0 +1,623 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+body main{background-color: #393e45;
+    color: #eeee;
+}
+
+.container{position: relative;}
+
+.hero-image {
+    background-image: url("../images/mactigr-homepage-carousel.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  img {
+    max-width:100%;
+    height:50px;
+    } 
+
+.container{
+    color: #eeee;
+}
+ 
+/*main section  */
+
+.main-content{
+    padding: 0 70px;
+}
+
+.nav{
+    display: flex;
+    height: 90px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #b55400;
+    font-size: 30px;
+}
+
+.name{
+    padding: 0 6px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    font-size: 18px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    }
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #eeee;
+    margin: 0 10xp;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+ nav ul li a:hover{
+    border-bottom: 2px solid #b55400;
+ }
+
+ .btn{
+    height: 40px;
+    padding: 0 15px;
+    margin: 0 10px;
+    background-color: #b55400;
+    border: none;
+    border-radius: 6px;
+    color: #eeee;
+    cursor: pointer;
+    font-weight: 500;
+    width: fit-content;
+ }
+
+ .main{
+    display: flex;
+    padding: 60px 0 10px 0;
+    margin-top: 50px;
+ }
+
+ .left-text{
+    flex: 1;
+ }
+
+ .color-text{
+    display: flex;
+    align-items: center;
+ }
+
+ .line{
+    height: 1.5px;
+    width: 20px;
+    margin-right: 4px;
+    background-color:#b55400;
+ }
+
+ .color-text{
+    color: #b55400;
+    font-size: 14px;
+ }
+
+ .main-heading{
+    font-size: 50px;
+    width: 300px;
+    line-height: 55px;
+ }
+
+ .text{
+    font-size: 14px;
+    width: 600px;
+    padding: 10px 0;
+    padding-right: 50px;
+ }
+
+ .client{
+    margin: 15px 0;
+    margin-right: 15px;
+    display: inline-block;
+
+ }
+
+ .num{
+    color: #b55400;
+    font-size: 25px;
+ }
+
+ .num-text{
+    font-size: 14px;
+ }
+
+ .image{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+ }
+
+ .me{
+    height: 260px;
+ }
+
+ /* hire section*/
+
+ .hire{
+    background-image: url("../images/360_F_139983330_kukAye9ot93LiCpKpkiybLM4ILy0mwwN.jpg");
+    display: flex;
+    padding: 40px 20px;
+    align-items: center;
+ }
+
+ 
+
+ .hire-left-1{
+    flex: 1;   
+    padding-top: 30px;
+ }
+
+ .hire-left-2{
+    flex: 1;
+ }
+
+ .right-text{
+    flex: 1;
+    padding: 0 30px;
+ }
+
+ .card{
+    background-color: #07425b54;
+    margin: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+ }
+
+.ad{
+    width: 30px;
+}
+
+.card-heading{
+    color: #d3bdabfe;
+    font-size: 15px;
+}
+
+.card-text{
+    font-size: 12px;
+}
+
+/* Education section*/
+
+.education{
+   padding: 50px 70px;
+   background-color: #222831; 
+   display: flex;
+}
+
+
+.port{
+    display: flex;
+    height: 40px;
+    width: 150px;
+    border: 1px solid #00adb5;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+.port-img{
+    width: 30px;
+    margin-right: 8px;
+
+}
+
+.about-list{
+    flex: 1;
+    background-color: #393e46;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.list{
+    background-color: #222831;
+    border-radius: 8px;
+    margin: 8px;
+    padding: 10px 20px;
+    border-bottom: 2px solid #00adb5;
+}
+
+.list-heading{
+    font-size: 16px;
+    color: #d3bdabfe;
+}
+
+.list-text{
+    font-size: 12px;
+}
+
+.main-heading-head-width{
+    width:600px;
+ }
+
+/*Experience section*/
+
+.experience{
+    padding: 50px 70px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+   background-image: url("..//images/Graduate-Silhouettes-Zoom-Background.webp");
+    flex-direction: column;
+    margin: auto;
+}
+
+.exp-main-heading{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exp-width{
+    width: 550px;
+}
+
+.work{
+    display: flex;
+    padding: 0 50px;
+}
+
+.left-work{
+    flex: 1;
+}
+
+.mid-line{
+    width: 2px;
+    background-color: #00adb5;
+    margin: 50px;
+    height: 350px;
+}
+
+.right-work{
+    flex: 1;
+}
+
+.work-heading{
+    font-size: 18px;
+}
+
+.work-text{
+    font-size: 13px;
+}
+
+.left-work-item{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.right-work-item{
+margin: 40px 0;
+}
+
+
+.mid-line-circle{
+    width: 15px;
+    height: 15px;
+    color: #00adb5;
+    background-color: #393e46;
+    border-radius: 50%;
+    border: 1px solid #00adb5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    right: 6px;
+    margin-bottom: 20px;
+}
+
+.line-circle{
+    background-color: #00adb5;
+    width: 7px;
+    height: 7px;
+    border: 50%;
+}
+ 
+/* goals section*/
+
+.goals{
+    padding: 50px 70px;
+    background-color: #2b3a526d;
+    border-radius: 20px;
+}
+
+.text-head-width{
+    width:500px;
+}
+
+.talk-card{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+    align-items: flex-end;
+}
+
+.talk-card-item{
+    background-color: #222831;
+    padding: 10px;
+    width: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+}
+
+.talk-card-aside{
+    border-radius: 8px;
+    background-color: #1c2f4a8f;
+    height: fit-content;
+    width: 25%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.text-date{
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    align-items: center;
+}
+
+.talk-img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.talk-line{
+    margin: 8px auto;
+    width: 80%;
+    height: 1px;
+    background-color: #eeee;
+}
+.talk-text{
+    font-size: 12px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*Footer section*/
+
+.contact{
+    background-image: url("../images/apple-macbook-laptop-shadow-wallpaper_resized.jpg");
+    padding: 10px 100px;
+}
+
+.contact-box{
+    background-color: #1e2a3d90;
+    border-radius: 8px;
+    padding: 20px 50px;
+    display: flex;
+}
+
+.left-contact{
+    flex: 2;
+}
+
+.contact-img{
+width: 70px;
+margin-top: 30px;
+}
+
+.social-img{
+    width: 40px;
+    margin: 10px;
+}
+
+.right-contact{
+    flex: 3;
+    display: flex;
+    flex-direction:column-reverse ;
+    padding: 50px 0 ;
+}
+
+.inp{
+    margin-bottom: 30px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #eeee;
+    border-bottom: 2px solid #eeee;
+    padding: 10px 0;
+    font-size: 16px;
+}
+.contact-heading{
+    font-size: 18px;
+    margin: 12px;
+    
+}
+.col-text{
+    margin:12px;
+    color: #b55400;
+}
+
+.contact-btn{
+    background-color: #016104;
+    color: #eeee;
+    height: 40px;
+    border: none;
+    width: fit-content;
+    padding: 0 20px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.contact-btn:hover{
+    background-color: #11244389;
+    transition: .4s;
+}
+
+.contact-info{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.info-item{
+    display: flex;
+    align-items: center;
+}
+
+.info-text{
+    color: #fff;
+font-size: 14px;
+margin: 0 10px;
+}
+
+.contact-info-img{
+    color: #4b4d6ca3;
+width: 30px;
+cursor: pointer;
+}
+
+form{
+    width: ;
+}
+
+
+.footer{
+    background-color: #000000;
+    padding: 50px 70px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item ul{
+    margin: 50px 0;
+    
+}
+
+.right-footer-item{
+    color: #fff;
+}
+
+.name{
+    color: #fff;
+}
+
+.right-footer-item ul li{
+    margin-right: 30px;
+    display: inline;
+}
+
+.rught-footer-item ul li a{
+margin: 0;
+cursor: pointer;
+}
+
+.right-footer-item ul li a:hover{
+    border-bottom: 2px solid#00adb5;
+    
+    }
+
+.footer-inp{
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    padding: 0 10px;
+    margin-top: 30px;
+}
+
+.footer-text{
+color: #fff;
+}
+
+.footer-line{
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+    margin: 20px;
+}
+
+.mail-to{
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: #4b4d6ca3;
+    transition: .4s;
+}
+
+/*Arrow*/
+
+#back-to-top > button{
+    background-color: rgba(29, 63, 83, 0.582);
+    border-radius: 50%;
+    border: solid 1px #050505;
+    width: 50px;
+    height: 50px;
+}
+#back-to-top:hover > button {
+    background-color: white;
+    transition: .4s;
+    
+}
+#back-to-top > button {
+    text-decoration: none;
+    color: whitesmoke;
+}
+#back-to-top:hover > button {
+    text-decoration: none;
+    color: rgb(226, 204, 162);
+}
+
+#back-to-top {position: fixed;
+    right: 80px;
+    bottom: 80px;}
+
+ 
+    
+    

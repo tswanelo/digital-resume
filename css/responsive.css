@@ -1,0 +1,297 @@
+@media only screen and (max-width:460px) {
+    .main-content{
+        padding: 0 20px;
+    }
+
+    .hero-image {
+        background-image: url("../images/mactigr-homepage-carousel.jpg");
+        position: relative;
+       
+    }
+
+    header{
+        float:none;
+        width: auto;
+    }
+
+    .nav{
+        flex-direction: column;
+        padding: 20px 0;
+        float:none;
+        width: auto;
+    }
+
+    img {
+        max-width:100%;
+        min-width: 100%;
+        
+        } 
+
+    .right{
+        flex-direction: column;
+        padding: 20px 0;
+        float:none;
+        width: auto;
+        
+    }
+    .right ul{
+        flex-wrap: wrap;
+    }
+
+    .btn{
+        margin: 10px auto;
+    }
+
+    .btn{
+        margin: 10px auto;
+    }
+    .text{
+        width: fit-content;
+        float:none;
+        width: auto;
+    }
+
+    .main{
+        flex-direction: column;
+    }
+
+    .left-text{
+        margin: 40px 0;
+    }
+
+    .hire{
+        flex-direction: column;
+        padding: 40px 20px;
+    }
+
+    .right-text{
+        margin-top: 40px;
+        padding: 0;
+    }
+
+    .head-with{
+        width: fit-content;
+    }
+
+    .education{
+        flex-direction: column;
+        padding: 40px 20px;
+        float:none;
+        width: auto;
+    }
+
+    .experience{
+        padding: 40px 0;
+        float:none;
+        width: auto;
+    }
+
+    .work{
+        padding: 0 20px;
+        float:none;
+        width: auto;
+    }
+
+
+    .left-work{
+        flex: 1;
+    }
+
+    .right-work{
+        flex: 3;
+    }
+
+    .mid-line{
+        margin: 50px 20px;
+        height: 820px;
+    }
+
+    .mid-line-circle{
+        border-bottom: 190px;
+    }
+
+    .left-work-item{
+        margin-bottom: 90px;
+    }
+
+    .main-heading{
+        width: fit-content;
+    }
+
+    .best-work{
+        padding: 40px 20px;
+    }
+
+    .goals{
+        padding: 40px 20px;
+        float:none;
+        width: auto;
+    }
+
+    .talk-date{
+        flex-direction: column;
+    }
+
+    .contact{ 
+        padding: 40px 20px;
+    }
+
+    .contact-box{
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    .contact-img{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .contact-info{
+        flex-direction: column;
+    }
+
+    .info-item{
+        margin: 10px 0;
+    }
+
+    .footer{
+        float:none;
+        width: auto;
+        padding: 40px 20px;
+        display: box;
+        flex-direction: column;
+    }
+
+    .footer-content{
+        flex-direction: column;
+    }
+
+    .footer-item ul{
+        margin: 40px 0;
+    }
+
+    .footer-inp{
+        margin-top: 10px;
+    }
+
+    .footer-line{
+        margin-top: 20px;
+    }
+    
+    .mail-to{
+        float:none;
+        width: auto;
+    }
+
+    .footer-text{
+        float:none;
+        width: auto;
+    }
+
+    .info-text{
+        float:none;
+        width: auto;
+    }
+
+    #back-to-top {position: fixed;
+        left:80px;
+        bottom: 80px;}
+
+}
+
+@media only screen and (min-device-width : 460px) and (max-device-width : 1024px) {
+    #back-to-top {position: fixed;
+        left:50px;
+        bottom: 50px;}
+
+        .experience{
+            padding: 40px 0;
+            float:none;
+            width: auto;
+            display: block;
+        }
+
+        .education{
+            flex-direction: column;
+            padding: 40px 20px;
+            float:none;
+            width: auto;
+            display: block;
+
+        }
+    
+        
+        .main{
+            flex-direction: column;
+            padding: 40px 20px;
+            float:none;
+            width: auto;
+            display: block;
+
+        }
+        
+        .talk-date{
+            flex-direction: column;
+        }
+    
+        .contact{ 
+            padding: 40px 20px;
+        }
+    
+        .contact-box{
+            padding: 20px;
+            flex-direction: column;
+        }
+    
+        .contact-img{
+            width: 100%;
+            margin-top: 30px;
+        }
+    
+        .contact-info{
+            flex-direction: column;
+        }
+    
+        .info-item{
+            margin: 10px 0;
+        }
+    
+        .footer{
+            float:none;
+            width: auto;
+            padding: 40px 20px;
+            display: box;
+            flex-direction: column;
+        }
+    
+        .footer-content{
+            flex-direction: column;
+        }
+    
+        .footer-item ul{
+            margin: 40px 0;
+        }
+    
+        .footer-inp{
+            margin-top: 10px;
+        }
+    
+        .footer-line{
+            margin-top: 20px;
+        }
+        
+        .mail-to{
+            float:none;
+            width: auto;
+        }
+    
+        .footer-text{
+            float:none;
+            width: auto;
+        }
+    
+        .info-text{
+            float:none;
+            width: auto;
+        }
+    }
